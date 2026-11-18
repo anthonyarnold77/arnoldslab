@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/anthon29/public_html/arnoldslab.com/
+    - /bin/cp -R * $DEPLOYPATH
